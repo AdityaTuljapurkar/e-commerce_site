@@ -1,0 +1,15 @@
+#image-gallary{
+    width: 81em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#image-gallary img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
