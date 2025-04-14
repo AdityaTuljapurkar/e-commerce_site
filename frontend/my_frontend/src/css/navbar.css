@@ -1,0 +1,54 @@
+/* home.css */
+
+/* Styling for the navbar */
+
+
+/* Or try other combinations */
+.flipkart-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+    /* Add other styling */
+}
+
+nav {
+    background-color: #2874f0; /* Flipkart blue */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#search {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+}
+
+#search:focus {
+    outline: none;
+    border-color: #2874f0;
+}
