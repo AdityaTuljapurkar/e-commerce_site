@@ -5,18 +5,19 @@ import './App.css'
 import {Link , Route,Routes,BrowserRouter as Router} from "react-router-dom";
 import Navbar from './components/navbar';
 import Home from './pages/home';
-
+import ImageGallary from './components/image_gallary';
 const App = ()=>{
   try{
     return(
       <>
       <Router>
         <Routes>
-          <Route path="/" element={<Navbar/>} >         
+          <Route path="/" element={<Navbar/>} >       
+          <Route path="/image" element={<ImageGallary/>} />  
           <Route index element={<Home/>} />
           <Route path="/login" element={<h1>Login</h1>} />
           <Route path="/cart" element={<h1>Cart</h1>} />
-          
+
         
           </Route>
         </Routes>
